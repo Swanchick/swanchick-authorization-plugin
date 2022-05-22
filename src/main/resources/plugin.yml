@@ -1,0 +1,15 @@
+name: Swanchick
+version: '${project.version}'
+main: swanchickg.swanchicka.SwanchickA
+api-version: 1.18
+authors: [ Swanchick ]
+commands:
+  regist:
+    description: Registration the player
+    usage: /<command> <password> <password>
+  login:
+    description: Login in player account
+    usage: /<command> <password>
+  test:
+    description: Test
+    usage: /<command>
